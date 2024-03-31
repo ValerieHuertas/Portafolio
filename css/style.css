@@ -429,6 +429,31 @@ footer {
     background: url(../img/circulo-de-flecha.png) center/cover;
     transform: scaleX(-1);
 }
+#btn-whats{
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    z-index: 999;
+    height: auto;
+    display: block;
+}
+
+#btn-whats img{
+    width: 75px;
+    transition: .5s;
+    border-radius: 50%;
+}
+#btn-whats img:hover{
+    transform: scale(.85);
+}
+#btn-whats button{
+    position: fixed;
+    background: transparent;
+    border: transparent;
+    border-radius: 50%;
+    transition: .5s;
+    bottom: 105px;
+}
 @media screen and (min-width:320px) and (max-width: 767px) { 
     .navbar>.container{
         background: #000;
@@ -479,5 +504,12 @@ footer {
     }
     .social p, .contacto p {
         font-size: 25px;
+    }
+    #btn-whats img{
+        width: 45px;
+    }
+    #btn-whats button{
+        width: 45px;
+        bottom: 80px;
     }
 }

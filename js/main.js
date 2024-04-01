@@ -2,7 +2,7 @@ function interfaz() {
     const hojaEstilo = document.getElementById("hoja-estilo");
 
     if (hojaEstilo.getAttribute("href") === "css/style.css") {
-        hojaEstilo.setAttribute("href", "css/styledark.css");
+        hojaEstilo.setAttribute("href", "css/stylelight.css");
     } else {
         hojaEstilo.setAttribute("href", "css/style.css");
     }

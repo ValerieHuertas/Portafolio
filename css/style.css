@@ -143,12 +143,12 @@ nav.bg-por ul li a:hover::after {
 #perfil h2 {
     color: #fff;
     font-size: var(--fontSize-title);
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .pro,
 .escribirse {
-    animation: escribir 20s steps(17, end);
+    animation: escribir 5s steps(17, end);
     white-space: nowrap;
     overflow: hidden;
 }
@@ -167,7 +167,7 @@ nav.bg-por ul li a:hover::after {
 #perfil p {
     color: #fff;
     font-size: var(--fontSize-parrafos);
-    margin-bottom: 50px;
+   margin-bottom: 270px;
 }
 
 #perfil .proyectos {
@@ -218,7 +218,7 @@ nav.bg-por ul li a:hover::after {
     color: #c6c6c6;
     font-size: var(--fontSize-parrafos);
     line-height: 1.5;
-    margin-bottom: 10px;
+    margin-bottom: 150px;
 }
 
 #perfil .card-services a {
@@ -236,6 +236,7 @@ nav.bg-por ul li a:hover::after {
 #cdestacadas {
     padding: 0 80px; 
     text-align: center; 
+    margin-bottom: 300px;
 }
 
 #cdestacadas h1 {
@@ -291,6 +292,7 @@ nav.bg-por ul li a:hover::after {
     padding: 190px 0 100px; 
     background: #1e2b40; 
     text-align: center; 
+    margin-bottom: 100px;
 }
 
 #skills .info h1 {
